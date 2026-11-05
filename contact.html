@@ -1,0 +1,291 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact PulsePoint CPR Training to request a class.">
+    <title>Contact | PulsePoint CPR Training</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <div class="demo-banner">
+        Demonstration website — the contact form does not send messages.
+    </div>
+
+    <header class="site-header">
+        <div class="container nav-container">
+            <a class="brand" href="index.html">
+                <span class="brand-icon">♥</span>
+                <span>PulsePoint <strong>CPR</strong></span>
+            </a>
+
+            <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="classes.html">Classes</a>
+                <a href="about.html">About</a>
+                <a href="schedule.html">Schedule</a>
+                <a class="active" href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <span class="eyebrow">GET IN TOUCH</span>
+                <h1>Let's talk about your training needs.</h1>
+                <p>
+                    Have questions or want to request a class?
+                    Use our sample inquiry form below.
+                </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container contact-grid">
+                <div class="contact-intro">
+                    <span class="eyebrow">CONTACT INFORMATION</span>
+                    <h2>We're here to help.</h2>
+
+                    <p>
+                        Whether you're looking for individual
+                        training or coordinating a group class,
+                        we'd love to learn more about your needs.
+                    </p>
+
+                    <div class="contact-detail">
+                        <span class="contact-detail-icon">✉</span>
+                        <div>
+                            <h3>Email</h3>
+                            <p>Business email coming soon</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <span class="contact-detail-icon">☎</span>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>Business phone coming soon</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-detail">
+                        <span class="contact-detail-icon">⌖</span>
+                        <div>
+                            <h3>Service Area</h3>
+                            <p>Location information coming soon</p>
+                        </div>
+                    </div>
+
+                    <div class="notice-box">
+                        <strong>Demo mode</strong>
+                        <p>
+                            This form is not connected to a backend.
+                            Do not enter sensitive or real personal
+                            information while testing it.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="form-card">
+                    <h2>Request Information</h2>
+                    <p>
+                        Complete the fields below to preview
+                        how a future class request would work.
+                    </p>
+
+                    <form id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="first-name">First Name *</label>
+                                <input
+                                    type="text"
+                                    id="first-name"
+                                    name="firstName"
+                                    placeholder="First name"
+                                    autocomplete="given-name"
+                                    maxlength="80"
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="last-name">Last Name *</label>
+                                <input
+                                    type="text"
+                                    id="last-name"
+                                    name="lastName"
+                                    placeholder="Last name"
+                                    autocomplete="family-name"
+                                    maxlength="80"
+                                    required
+                                >
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="you@example.com"
+                                    autocomplete="email"
+                                    maxlength="254"
+                                    required
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input
+                                    type="tel"
+                                    id="phone"
+                                    name="phone"
+                                    placeholder="(555) 555-5555"
+                                    autocomplete="tel"
+                                    maxlength="30"
+                                >
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="course">Interested Course *</label>
+                            <select id="course" name="course" required>
+                                <option value="">Select a course</option>
+                                <option value="CPR & AED">CPR & AED</option>
+                                <option value="First Aid">First Aid</option>
+                                <option value="Basic Life Support">Basic Life Support</option>
+                                <option value="Infant & Child CPR">Infant & Child CPR</option>
+                                <option value="Workplace Group Training">Workplace Group Training</option>
+                                <option value="Not Sure">Not Sure Yet</option>
+                            </select>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="participants">Number of Participants</label>
+                                <input
+                                    type="number"
+                                    id="participants"
+                                    name="participants"
+                                    min="1"
+                                    max="1000"
+                                    placeholder="1"
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="preferred-date">Preferred Date</label>
+                                <input
+                                    type="date"
+                                    id="preferred-date"
+                                    name="preferredDate"
+                                >
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Additional Information</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="5"
+                                maxlength="2000"
+                                placeholder="Tell us about your training needs..."
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full">
+                            Preview Request Submission
+                        </button>
+
+                        <div
+                            id="form-status"
+                            class="form-status"
+                            role="status"
+                            aria-live="polite"
+                            hidden
+                        ></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-soft">
+            <div class="container narrow-container">
+                <div class="section-heading">
+                    <span class="eyebrow">COMMON QUESTIONS</span>
+                    <h2>Before you reach out.</h2>
+                </div>
+
+                <div class="faq-list">
+                    <details class="faq-item">
+                        <summary>Can I request a private class?</summary>
+                        <p>
+                            Private training is a proposed service.
+                            Availability will be confirmed once
+                            the business finalizes its offerings.
+                        </p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Can I request training for my employees?</summary>
+                        <p>
+                            The finished website can support
+                            inquiries from employers and organizations
+                            looking to train multiple participants.
+                        </p>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Can I pay online?</summary>
+                        <p>
+                            Online payments are not enabled
+                            in this prototype. Payment processing
+                            can be integrated in a future version.
+                        </p>
+                    </details>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a class="brand footer-brand" href="index.html">
+                    <span class="brand-icon">♥</span>
+                    <span>PulsePoint <strong>CPR</strong></span>
+                </a>
+                <p>Practical training for everyday confidence.</p>
+            </div>
+
+            <div>
+                <h3>Explore</h3>
+                <a href="classes.html">Classes</a>
+                <a href="schedule.html">Schedule</a>
+                <a href="about.html">About Us</a>
+            </div>
+
+            <div>
+                <h3>Get in Touch</h3>
+                <a href="contact.html">Contact</a>
+                <p>Business details coming soon</p>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>© <span id="current-year"></span> PulsePoint CPR Training.</p>
+            <p>Demonstration website.</p>
+        </div>
+    </footer>
+</body>
+</html>

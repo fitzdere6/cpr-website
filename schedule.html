@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="View sample CPR training class schedules.">
+    <title>Schedule | PulsePoint CPR Training</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <div class="demo-banner">
+        Demonstration website — all class dates are examples.
+    </div>
+
+    <header class="site-header">
+        <div class="container nav-container">
+            <a class="brand" href="index.html">
+                <span class="brand-icon">♥</span>
+                <span>PulsePoint <strong>CPR</strong></span>
+            </a>
+
+            <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+                ☰
+            </button>
+
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="classes.html">Classes</a>
+                <a href="about.html">About</a>
+                <a class="active" href="schedule.html">Schedule</a>
+                <a href="contact.html" class="btn btn-primary nav-cta">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <span class="eyebrow">CLASS SCHEDULE</span>
+                <h1>Find a time to learn.</h1>
+                <p>
+                    Explore how upcoming classes and registration
+                    requests could appear on the finished website.
+                </p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="notice-box">
+                    <strong>Sample schedule only</strong>
+                    <p>
+                        These sessions are fictional and are not
+                        available for booking. A real scheduling
+                        system can be added when the business launches.
+                    </p>
+                </div>
+
+                <div class="schedule-toolbar">
+                    <div>
+                        <span class="eyebrow">UPCOMING SESSIONS</span>
+                        <h2>Example Class Calendar</h2>
+                    </div>
+
+                    <label class="filter-control">
+                        Filter by class
+                        <select id="class-filter">
+                            <option value="all">All Classes</option>
+                            <option value="cpr">CPR & AED</option>
+                            <option value="first-aid">First Aid</option>
+                            <option value="bls">Basic Life Support</option>
+                        </select>
+                    </label>
+                </div>
+
+                <div class="schedule-list">
+                    <article class="schedule-card" data-course="cpr">
+                        <div class="date-box">
+                            <strong>12</strong>
+                            <span>DEC</span>
+                        </div>
+
+                        <div class="schedule-info">
+                            <span class="course-label">SAMPLE SESSION</span>
+                            <h3>CPR & AED</h3>
+                            <p>Saturday · 9:00 AM – 12:00 PM</p>
+                            <small>Location: To be announced</small>
+                        </div>
+
+                        <a
+                            href="contact.html?course=CPR%20%26%20AED"
+                            class="btn btn-primary"
+                        >
+                            Request Class
+                        </a>
+                    </article>
+
+                    <article class="schedule-card" data-course="first-aid">
+                        <div class="date-box">
+                            <strong>16</strong>
+                            <span>DEC</span>
+                        </div>
+
+                        <div class="schedule-info">
+                            <span class="course-label">SAMPLE SESSION</span>
+                            <h3>First Aid</h3>
+                            <p>Wednesday · 6:00 PM – 9:00 PM</p>
+                            <small>Location: To be announced</small>
+                        </div>
+
+                        <a
+                            href="contact.html?course=First%20Aid"
+                            class="btn btn-primary"
+                        >
+                            Request Class
+                        </a>
+                    </article>
+
+                    <article class="schedule-card" data-course="bls">
+                        <div class="date-box">
+                            <strong>19</strong>
+                            <span>DEC</span>
+                        </div>
+
+                        <div class="schedule-info">
+                            <span class="course-label">SAMPLE SESSION</span>
+                            <h3>Basic Life Support</h3>
+                            <p>Saturday · 10:00 AM – 1:00 PM</p>
+                            <small>Location: To be announced</small>
+                        </div>
+
+                        <a
+                            href="contact.html?course=Basic%20Life%20Support"
+                            class="btn btn-primary"
+                        >
+                            Request Class
+                        </a>
+                    </article>
+
+                    <article class="schedule-card" data-course="cpr">
+                        <div class="date-box">
+                            <strong>09</strong>
+                            <span>JAN</span>
+                        </div>
+
+                        <div class="schedule-info">
+                            <span class="course-label">SAMPLE SESSION</span>
+                            <h3>CPR & AED</h3>
+                            <p>Saturday · 1:00 PM – 4:00 PM</p>
+                            <small>Location: To be announced</small>
+                        </div>
+
+                        <a
+                            href="contact.html?course=CPR%20%26%20AED"
+                            class="btn btn-primary"
+                        >
+                            Request Class
+                        </a>
+                    </article>
+                </div>
+
+                <p id="no-classes" class="empty-state" hidden>
+                    No sample classes match your filter.
+                </p>
+            </div>
+        </section>
+
+        <section class="section section-soft">
+            <div class="container split-section">
+                <div>
+                    <span class="eyebrow">PRIVATE TRAINING</span>
+                    <h2>Need a different date?</h2>
+                    <p>
+                        Private and group classes could be offered
+                        for workplaces, organizations, and families.
+                    </p>
+                    <p>
+                        Tell us what kind of training you're looking
+                        for, how many people need to attend,
+                        and your preferred schedule.
+                    </p>
+
+                    <a
+                        href="contact.html?course=Workplace%20Group%20Training"
+                        class="btn btn-primary"
+                    >
+                        Request Group Training
+                    </a>
+                </div>
+
+                <div class="info-panel">
+                    <span class="panel-symbol">▣</span>
+                    <h3>Flexible Training Options</h3>
+                    <p>
+                        A future scheduling system could show
+                        actual available classes, open seats,
+                        and registration deadlines.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div>
+                <a class="brand footer-brand" href="index.html">
+                    <span class="brand-icon">♥</span>
+                    <span>PulsePoint <strong>CPR</strong></span>
+                </a>
+                <p>Practical training for everyday confidence.</p>
+            </div>
+
+            <div>
+                <h3>Explore</h3>
+                <a href="classes.html">Classes</a>
+                <a href="schedule.html">Schedule</a>
+                <a href="about.html">About Us</a>
+            </div>
+
+            <div>
+                <h3>Get in Touch</h3>
+                <a href="contact.html">Contact</a>
+                <p>Business details coming soon</p>
+            </div>
+        </div>
+
+        <div class="container footer-bottom">
+            <p>© <span id="current-year"></span> PulsePoint CPR Training.</p>
+            <p>Demonstration website.</p>
+        </div>
+    </footer>
+</body>
+</html>
